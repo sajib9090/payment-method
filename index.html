@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Busy Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <section id="whole" class="max-w-7xl mx-auto mt-16">
+        <h1 class="text-6xl font-extrabold text-center">Welcome to the <span class="text-rose-700">Busy Bank</span></h1>
+        <div class="mx-auto bg-gray-300 max-w-2xl mx-auto mt-16 p-6 rounded">
+                <h1 class="text-4xl font-bold text-center mb-4">Login</h1>
+                <input class="px-2 py-3 w-full my-2 rounded" type="email" name="" id="user-email" placeholder="enter your email">
+                <input class="px-2 py-3 w-full my-2 rounded" type="password" name="" id="user-password" placeholder="enter your password">
+                <div id="newP">
+
+                </div>
+                <input class="bg-green-900 text-white px-6 py-2 rounded my-2 cursor-pointer" type="submit" value="Submit" id="btn-submit">
+
+        </div>
+    </section>
+
+    <section id="secondStage" class="max-w-7xl mx-auto mt-2 hidden">
+        <h1 class="text-6xl font-extrabold text-center">Let's play with your <span class="text-rose-700">money</span></h1>
+
+        <div class="grid grid-cols-3 gap-4 mt-12 max-w-4xl mx-auto">
+            <div class="bg-slate-600 p-4 text-white rounded w-full">
+                <h3 class="text-3xl font-bold py-2">Deposit</h3>
+                <h2 class="text-5xl font-bold py-2">$00</h2>
+            </div>
+            <div class="bg-amber-500 p-4 text-white rounded w-full">
+                <h3 class="text-3xl font-bold py-2">Withdraw</h3>
+                <h2 class="text-5xl font-bold py-2">$00</h2>
+            </div>
+            <div class="bg-cyan-700 p-4 text-white rounded w-full">
+                <h3 class="text-3xl font-bold py-2">Balance</h3>
+                <h2 class="text-5xl font-bold py-2">$1240</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-12 max-w-4xl mx-auto">
+            <div class="bg-violet-400 p-4 rounded w-full">
+                <h3 class="text-2xl font-semi-bold py-2">Please Deposit</h3>
+                <input class="px-1 py-1 w-3/5 my-2 rounded" type="text" name="" id="" placeholder="Enter your amount">
+                <br>
+                <input class="bg-blue-600 text-white px-6 py-2 rounded cursor-pointer" type="submit" value="Deposit" name="" id="">
+                
+            </div>
+            <div class="bg-gray-600 p-4 rounded w-full">
+                <h3 class="text-2xl font-semi-bold py-2">Please Withdraw</h3>
+                <input class="px-1 py-1 w-3/5 my-2 rounded" type="text" name="" id="" placeholder="Enter your amount">
+                <br>
+                <input class="bg-white text-black px-6 py-2 rounded cursor-pointer" type="submit" value="Withdraw" name="" id="">
+                
+            </div>
+
+        </div>
+    </section>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
